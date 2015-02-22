@@ -1,5 +1,16 @@
 ### Introduction
 
+The assignment problem prototype was given for a different function i.e. Mean,
+and the problem was to develop a similar mechanism to cache the inverse of a 
+matrix. If the inverse is calculated once, it is cached and the next time,
+it is returned without the function call to "solve" (the function used to
+calculate inverse).
+
+The rest of the readme document is the same as was available in the forked
+document.
+
+### Background
+
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
 For example, taking the mean of a numeric vector is typically a fast
